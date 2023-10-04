@@ -10,6 +10,8 @@ public class App {
         int tal2 = tangentbord.nextInt();
         tangentbord.nextLine();
         System.out.println("Är tal1 och tal2 samma tal?: "+(tal1==tal2));
+        System.out.println("Är tal1 mindre än tal2?: "+(tal1<=tal2));
+        System.out.println("Är tal1 större än tal2?: "+(tal1>=tal2));
         tangentbord.close();
     }
 }
