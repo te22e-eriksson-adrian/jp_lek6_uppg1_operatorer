@@ -20,6 +20,21 @@ public class App {
         System.out.println("1:a elementet är större än 2:a elemnetet: "+(talen[0]>talen[1])+" ELLER större än 3:e elementet: "+(talen[0]>talen[2]));
         System.out.println("1:a elementet är mindre än 2:a elemnetet: "+(talen[0]<talen[1])+" ELLER större än 3:e elementet: "+(talen[0]<talen[2]));
         System.out.println("1:a elementet är lika med än 2:a elemnetet: "+(talen[0]==talen[1])+" ELLER större än 3:e elementet: "+(talen[0]==talen[2]));
+
+        //c
+        System.out.println("      ");
+        System.out.print("Inmata valfritt heltal här: ");
+        int tal_x = tangentbord.nextInt();
+        tangentbord.nextLine();
+        int ursp_tal = tal_x;
+        tal_x+=7;
+        tal_x*=2;
+        tal_x-=6;
+        tal_x/=2;
+        tal_x+=3;
+        tal_x-=ursp_tal;
+        System.out.println("Talet du skrev in: "+ursp_tal);
+        System.out.println("Svar: "+tal_x);
         tangentbord.close();
     }
 }
